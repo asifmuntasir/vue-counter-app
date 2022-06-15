@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    margin: auto;
+    padding: 20px 0px;
+    text-align: center;
+    border-bottom: 2px solid rosybrown;
+    background-color: #232346;
+}
+
+h1 {
+    color: #15C688;
+    font-weight: bold;
+}
+
+.counter-div {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    border: 3px solid gray;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+p {
+    font-size: 50px;
+    font-weight: 600;
+    color: crimson;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    color: brown;
+}
